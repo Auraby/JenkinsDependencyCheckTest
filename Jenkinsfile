@@ -6,7 +6,7 @@ pipeline {
 				//sh 'ls'
 				//sh 'cd ..'
 				//sh 'ls'
-				git '/'
+				git './'
 			}
 		}
 
