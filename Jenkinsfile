@@ -1,14 +1,14 @@
 pipeline {
 	agent any
 	stages {
-		// stage('Checkout SCM') {
-		// 	steps {
-		// 		//sh 'ls'
-		// 		//sh 'cd ..'
-		// 		//sh 'ls'
-		// 		git '/'
-		// 	}
-		// }
+		stage('Checkout SCM') {
+			steps {
+				//sh 'ls'
+				//sh 'cd ..'
+				//sh 'ls'
+				git '/'
+			}
+		}
 
 		stage('OWASP DependencyCheck') {
 			steps {
