@@ -5,7 +5,7 @@ pipeline {
 			steps {
 				//sh 'ls'
 				//sh 'cd ..'
-				//sh 'ls'
+				sh 'ls'
 				git './'
 			}
 		}
